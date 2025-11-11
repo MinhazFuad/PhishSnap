@@ -1,16 +1,9 @@
-Here’s a **clean, professional version** of your GitHub `README.md` — with emojis removed and the tone adjusted for academic or technical publication standards:
-
----
-
-![PhishSnap Browser Extension UI](extension_ui.png)
-
-
 # PhishSnap: Browser-Based Phishing Detection Using Image Hashing
 
 PhishSnap is a phishing detection system that leverages **perceptual hashing (pHash)** and **machine learning** to classify webpages as *phishing* or *legitimate* based on their screenshots.
 The system operates entirely on-device via a **browser extension**, ensuring privacy and real-time detection without relying on external servers.
 
----
+![PhishSnap Browser Extension UI](extension_ui.png)
 
 ## Features
 
