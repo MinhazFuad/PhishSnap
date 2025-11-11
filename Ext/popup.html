@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PhishSnap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <div class="dot"></div>
+        <span>PHISHSNAP</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>
+        <span class="line">Fake Login Page</span>
+        <span class="line accent">Detection</span>
+        <span class="sub">URL &amp; Image Based Analysis</span>
+      </h1>
+
+      <button id="scanBtn" class="cta">Scan This Page</button>
+
+      <div id="result" class="result muted">Press “Scan This Page”</div>
+      <div id="details" class="details muted"></div>
+    </section>
+
+    <footer class="foot">
+      <span class="chip">On-device · No backend</span>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

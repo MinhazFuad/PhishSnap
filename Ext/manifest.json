@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "PhishSnap",
+  "version": "0.1.0",
+  "description": "On-device fake login detector using perceptual hashing.",
+  "permissions": ["activeTab", "tabs"],
+  "action": { "default_popup": "popup.html", "default_title": "PhishSnap" },
+  "icons": { "128": "icon128.png" },
+  "web_accessible_resources": [{
+    "resources": ["assets/phash_index_train.json"],
+    "matches": ["<all_urls>"]
+  }]
+}
