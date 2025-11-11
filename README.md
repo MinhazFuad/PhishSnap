@@ -2,6 +2,9 @@ Here’s a **clean, professional version** of your GitHub `README.md` — with e
 
 ---
 
+![PhishSnap Browser Extension UI](extension_ui.png)
+
+
 # PhishSnap: Browser-Based Phishing Detection Using Image Hashing
 
 PhishSnap is a phishing detection system that leverages **perceptual hashing (pHash)** and **machine learning** to classify webpages as *phishing* or *legitimate* based on their screenshots.
@@ -32,9 +35,9 @@ PhishSnap consists of two main components: a **machine learning backend** for tr
 4. **Evaluation** – Model performance is measured using accuracy, precision, recall, and F1-score.
 5. **Extension Integration** – The trained model is embedded in a Chrome extension for live phishing detection.
 
-*(Placeholder for architecture or methodology figure.)*
+![System Architecture](architecture.png)
 
----
+*Figure 1. PhishSnap system architecture.*
 
 ## Methodology
 
