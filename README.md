@@ -100,28 +100,7 @@ This script will:
 | Recall    | 0.78  |
 | F1-score  | 0.82  |
 
-*Note:* The dataset was collected in 2024. Some URLs were inaccessible at the time of testing, which contributed to reduced accuracy.
-
----
-
-## Repository Structure
-
-```
-PhishSnap/
-│
-├── dataset/                 # URLs and webpage screenshots
-├── models/                  # Trained models
-├── phash/                   # pHash computation scripts and JSON files
-├── extension/               # Browser extension source code
-│   ├── manifest.json
-│   ├── popup.html
-│   ├── popup.js
-│   └── style.css
-├── train_model.py           # Model training script
-├── evaluate.py              # Evaluation script
-├── utils.py                 # Helper functions
-└── README.md
-```
+*Note:* The dataset was collected from https://data.mendeley.com/datasets/vfszbj9b36/1
 
 ---
 
@@ -136,8 +115,9 @@ All computations occur locally within the user’s browser, ensuring privacy and
 
 ## Contributors
 
-* **[Your Name]** — Project Lead, Model Development
-* **[Supervisor/Advisor Name]** — Project Advisor
+* **[Md. Abdul Ahad Minhaz]** — Project Lead, Model Development
+* **[Zannatul Zahan Meem]** — Dataset Collection
+* **[Dr. Md. Shohrab Hossain]** — Project Advisor
 
 ---
 
@@ -151,9 +131,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 1. Monga, V., Evans, B. L., & Li, Y. (2022). *Perceptual Hashing for Image Similarity Detection*. IEEE Transactions on Image Processing.
 2. Phishing Detection Using Image-Based Features. *IEEE Xplore*, 2023.
-3. OpenPhish Dataset, 2024.
-4. PhishSnap Project Report, 2025.
 
----
 
-Would you like me to include a short **"Abstract"** section at the top (as found in research-style repositories), or keep it as a straightforward software README?
