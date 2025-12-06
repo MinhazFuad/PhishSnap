@@ -3,6 +3,8 @@
 PhishSnap is a phishing detection system that leverages **perceptual hashing (pHash)** and **machine learning** to classify webpages as *phishing* or *legitimate* based on their screenshots.
 The system operates entirely on-device via a **browser extension**, ensuring privacy and real-time detection without relying on external servers.
 
+arXiv paper: https://arxiv.org/abs/2512.02243
+
 ![PhishSnap Browser Extension UI](extension_ui.png)
 
 ## Features
